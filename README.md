@@ -4,12 +4,12 @@ This repository contains code that can be used to reproduce the experimental
 results presented in the paper:
 
 Awni Hannun, Chuan Guo and Laurens van der Maaten. Measuring Data Leakage in
-Machine-Learning Models with Fisher Information. arXiv XXXX.XXXXX, 2021.
+Machine-Learning Models with Fisher Information. arXiv 2102.11673, 2021.
 
 # Installation
 
 The code requires Python 3.7+, [PyTorch
-1.7.1+](https://pytorch.org/get-started/locally/), and torchvision 0.8.2+].
+1.7.1+](https://pytorch.org/get-started/locally/), and torchvision 0.8.2+.
 
 Create an Anaconda environment and install the dependencies:
 
@@ -60,7 +60,7 @@ If you use the code in this repository, please cite the following paper:
   title={Measuring Data Leakage in Machine-Learning Models with Fisher
     Information},
   author={Hannun, Awni and Guo, Chuan and van der Maaten, Laurens},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2102.11673},
   year={2021}
 }
 ```
