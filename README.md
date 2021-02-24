@@ -4,7 +4,8 @@ This repository contains code that can be used to reproduce the experimental
 results presented in the paper:
 
 Awni Hannun, Chuan Guo and Laurens van der Maaten. Measuring Data Leakage in
-Machine-Learning Models with Fisher Information. arXiv 2102.11673, 2021.
+Machine-Learning Models with Fisher Information. 
+[arXiv 2102.11673](https://arxiv.org/abs/2102.11673), 2021.
 
 # Installation
 
