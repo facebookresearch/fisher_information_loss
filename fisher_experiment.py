@@ -135,7 +135,7 @@ def main(args):
     stds = []
     for eta in args.etas:
         # Compute the Gaussian noise scale needed for eta:
-        scale = eta * etamax
+        scale = etamax / eta
         # Measure test accuracy:
         accuracy, std = compute_accuracy(
             model, test_data, noise_scale=scale, trials=args.trials,
