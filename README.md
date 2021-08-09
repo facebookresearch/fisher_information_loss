@@ -18,7 +18,7 @@ Create an Anaconda environment and install the dependencies:
 conda create --name fil
 conda activate fil
 conda install -c pytorch pytorch torchvision
-pip install gitpython 
+pip install gitpython numpy
 ```
 
 # Usage
