@@ -57,11 +57,11 @@ cd scripts/ && ./run_experiments.sh
 If you use the code in this repository, please cite the following paper:
 
 ```
-@article{hannun2021fil,
+@inproceedings{hannun2021fil,
   title={Measuring Data Leakage in Machine-Learning Models with Fisher
     Information},
   author={Hannun, Awni and Guo, Chuan and van der Maaten, Laurens},
-  journal={arXiv preprint arXiv:2102.11673},
+  booktitle={Conference on Uncertainty in Artificial Intelligence},
   year={2021}
 }
 ```
