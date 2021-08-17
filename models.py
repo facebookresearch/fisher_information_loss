@@ -113,7 +113,7 @@ class LeastSquares:
         y = data["targets"].float()
         # [-1, 1] works much better for regression
         y[y == 0] = -1
-        return (X @ self.theta - y)**2
+        return (X @ self.theta - y)**2 / 2
 
     def influence_jacobian(self, data, weighted=True):
         """
